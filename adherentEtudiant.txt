@@ -1,0 +1,5 @@
+Etudiant{idEtudiant=262662, adresse='hdchdhh', dateFin=Wed May 11 11:07:49 WEST 2022, penalite=0, NumeroAdh=0, nom='gaga', prenom='gagajdjd', NombreEmprunte=0, DureeMax=0, emprunt=0}
+Etudiant{idEtudiant=7777, adresse='ijjj', dateFin=Wed May 11 11:08:33 WEST 2022, penalite=0, NumeroAdh=0, nom='nanan', prenom='nana', NombreEmprunte=0, DureeMax=0, emprunt=0}
+Etudiant{idEtudiant=929929, adresse='hdhdh', dateFin=Wed May 11 11:24:44 WEST 2022, penalite=0, NumeroAdh=0, nom='hahahahahaha', prenom='hahahah', NombreEmprunte=0, DureeMax=0, emprunt=0}
+Etudiant{idEtudiant=8888, adresse='jjjjjjj', dateFin=Wed May 11 11:28:58 WEST 2022, penalite=0, NumeroAdh=0, nom='hahhaha', prenom='hahah', NombreEmprunte=0, DureeMax=0, emprunt=0}
+Etudiant{idEtudiant=8888, adresse='hhhh', dateFin=Wed May 11 11:44:53 WEST 2022, penalite=0, NumeroAdh=0, nom='nanan', prenom='nana', NombreEmprunte=0, DureeMax=0, emprunt=0}
