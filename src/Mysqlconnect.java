@@ -1,18 +1,26 @@
-import javax.swing.*;
-import java.sql.Connection;
-import java.sql.DriverManager;
+
+import java.sql.*;
+
 
 public class Mysqlconnect {
-    Connection conn=null;
+
     public static Connection connectdb(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn= DriverManager.getConnection("jdbc:mysql://localhost/biblio","root","");
-            return conn;
+           System.out.println("driver done");
+           String url ="jdbc:mysql://localhost/biblio";
+           String user = "root";
+           String password ="";
+           Connection cnx = DriverManager.getConnection(url,user,password);
+           System.out.println("connexion bien etablie");
+           return cnx;
         }catch (Exception e){
-            JOptionPane.showMessageDialog(null, e);
+            e.printStackTrace();
             return null;
         }
 
     }
 }
+
+
+

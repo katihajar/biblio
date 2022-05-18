@@ -18,7 +18,7 @@ public class Enseignant {
     private long emprunt;
     private String departement;
     private String email;
-    File prof = new File("adherentEtudiant.txt");
+    //File prof = new File("adherentEtudiant.txt");
 
 
     public long getIdEnseignant() {
@@ -163,7 +163,7 @@ public class Enseignant {
 
     }
     public void ajoutEnseignant(Enseignant ensg) throws IOException {
-        Scanner scanner;
+       /*Scanner scanner;
         try {
             scanner = new Scanner(prof).useDelimiter( ",");
 
@@ -187,6 +187,6 @@ public class Enseignant {
             bw.close();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }

@@ -1,15 +1,25 @@
 
+import java.beans.Statement;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Bibliothèque {
+    static Connection cnx;
+    static Statement st;
+    static ResultSet rst;
+
     public static void main(String [] args ) throws IOException {
 
-        Scanner nom = new Scanner(System.in);
+        Connection cnx = Mysqlconnect.connectdb();
+
+       /* Scanner nom = new Scanner(System.in);
         Scanner prenom = new Scanner(System.in);
         Scanner address = new Scanner(System.in);
         Scanner id = new Scanner(System.in);
@@ -24,7 +34,7 @@ public class Bibliothèque {
         System.out.println("Ajout d'un Adherent");
         Etudiant etudiant = new Etudiant(ids,addres,new Date(),0,0,nomAdherent,prenomAdherent,0,0,0);
         etudiant.ajoutEtudiant(etudiant);
-
+*/
 
     }
 

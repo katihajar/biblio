@@ -14,7 +14,7 @@ public class Etudiant {
     private long NombreEmprunte;
     private long DureeMax;
     private long emprunt;
-    File etd = new File("adherentEtudiant.txt");
+   // File etd = new File("adherentEtudiant.txt");
 
     public Etudiant(long idEtudiant, String adresse, Date dateFin, int penalite, long numeroAdh, String nom, String prenom, long nombreEmprunte, long dureeMax, long emprunt) {
         this.idEtudiant = idEtudiant;
@@ -143,13 +143,15 @@ public class Etudiant {
 
     }
     public void suppEtudiant(Etudiant etudiant) throws IOException {
-
+/*
         Scanner scanner;
         scanner = new Scanner(etd).useDelimiter(",");
         FileWriter fw = new FileWriter(etd.getAbsoluteFile(),true);
         PrintWriter bw = new PrintWriter(fw);
         FileReader fr = new FileReader(etd);
         BufferedReader br = new BufferedReader(fr);
+
+ */
         /*while (br.readLine()) {
             final String lineFromFile = scanner.nextLine();
             System.out.println(lineFromFile.contains(etudiant.nom));
@@ -160,10 +162,10 @@ public class Etudiant {
         }*/
     }
     public void ajoutEtudiant(Etudiant etudiant) throws IOException {
-        Scanner scanner;
-
+       // Scanner scanner;
+            /*
         try {
-            if (!etd.exists()) {
+           if (!etd.exists()) {
                 etd.createNewFile();
             }
             scanner = new Scanner(etd).useDelimiter( ",");
@@ -194,6 +196,8 @@ public class Etudiant {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
+
     }
 
 }
